@@ -1,0 +1,95 @@
+{
+    "intents": [{
+            "tag": "benh-dau-da-day",
+            "patterns": [
+                "Trieu chung benh dau da day",
+                "benh dau da day"
+            ],
+            "responses": [
+                "Dau da day la dau da day",
+                "Dau da day",
+                "Dau bung"
+            ]
+        },
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Xin chào",
+                "Chào",
+                "Bạn có khỏe không",
+                "Có ai ở đó không?",
+                "Xin chào",
+                "Ngày tốt"
+            ],
+            "responses": [
+                "Chào :-)",
+                "Xin chào, cảm ơn đã ghé thăm",
+                "Xin chào, tôi có thể giúp gì cho bạn?",
+                "Xin chào, tôi có thể giúp gì?"
+            ]
+        },
+        {
+            "tag": "goodbye",
+            "patterns": ["Tạm biệt", "Hẹn gặp lại", "Tạm biệt nhé"],
+            "responses": [
+                "Hẹn gặp lại, cảm ơn đã ghé thăm",
+                "Chúc một ngày tốt lành",
+                "Tạm biệt! Quay lại sớm thôi."
+            ]
+        },
+        {
+            "tag": "thanks",
+            "patterns": ["Cảm ơn", "Rất hữu ích", "Cảm ơn rất nhiều!"],
+            "responses": ["Rất vui được giúp đỡ!", "Bất cứ lúc nào!", "Rất vui"]
+        },
+        {
+            "tag": "items",
+            "patterns": [
+                "Bạn có những món đồ nào?",
+                "Có những loại mặt hàng nào?",
+                "Bạn bán cái gì?"
+            ],
+            "responses": [
+                "Chúng tôi bán cà phê và trà",
+                "Chúng tôi có cà phê và trà"
+            ]
+        },
+        {
+            "tag": "payments",
+            "patterns": [
+                "Cậu có mang theo thể tín dụng không?",
+                "Bạn có chấp nhận thẻ Mastercard không?",
+                "Tôi có thể trả bằng paypal không?",
+                "Bạn chỉ có tiền mặt?"
+            ],
+            "responses": [
+                "Chúng tôi chấp nhận VISA, Mastercard và Paypal",
+                "Chúng tôi chấp nhận hầu hết các thẻ tín dụng chính và Paypal"
+            ]
+        },
+        {
+            "tag": "delivery",
+            "patterns": [
+                "Mất bao lâu để giao hàng?",
+                "Việc lên hàng mất bao lâu?",
+                "Khi nào tôi nhận được hàng?"
+            ],
+            "responses": [
+                "Giao hàng mất 2-4 ngày",
+                "Vận chuyển mất 2-4 ngày"
+            ]
+        },
+        {
+            "tag": "funny",
+            "patterns": [
+                "Hãy kể cho tôi một câu chuyện cười!",
+                "Hãy kể cho tôi nghe điều gì đó vui nhộn!",
+                "Em có biết một câu chuyện cười không?"
+            ],
+            "responses": [
+                "Tại sao hipster bỏng miệng? Anh ta uống cà phê trước khi nó nguội.",
+                "Con trâu đã nói gì khi con trai của nó bỏ đi học đại học? Bison."
+            ]
+        }
+    ]
+}

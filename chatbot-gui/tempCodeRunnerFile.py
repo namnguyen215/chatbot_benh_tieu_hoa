@@ -1,0 +1,2 @@
+
+TEXT_COLOR = "#EAECEE"
